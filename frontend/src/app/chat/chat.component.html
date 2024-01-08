@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="form">
+    <p class="title-start">Chat</p>
+    <p class="p-start">Logged in as: <a class="a-start" style="font-weight: bold;">{{loggedInUsername}}</a></p>
+    <a class="a-logout" (click)="logOut()">Log out</a>
+    <br>
+    <br>
+    <br>
+    <input class="textbox-start" [(ngModel)]="text" placeholder="Text..." type="text">
+    <button class="button-start" (click)="sendMessage()">Send</button>
+    <br>
+    <br>
+    <br>
+    <span style="font-size: 20px; font-weight: bold;">Messages:</span>
+    <br>
+    <div class="div-message" *ngFor="let m of messages" style="margin-top: 10px;">
+      <table class="table-message">
+        <tr>
+          <td class="td-username">{{m.username}}</td>
+          <td class="td-timestamp">{{m.timestamp | date:'HH:mm dd.MM.yyyy'}}</td>
+        </tr>
+      </table>
+      <p class="p-text">{{m.text}}</p>        
+    </div>
+  </div>
+</div>

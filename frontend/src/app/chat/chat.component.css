@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+}
+
+.form {
+    text-align: center;
+}
+
+.title-start {
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.textbox-start {
+    font-size: 18px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #efefef;
+    color: #022b3a;
+    width: 500px;
+}
+
+.button-start {
+    border-width: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5px;
+    background-color: #0000ff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.p-start {
+    font-size: 20px;
+    color: #022b3a;
+}
+
+.a-start {
+    font-size: 20px;
+    color: #0000ff;
+}
+
+.a-logout {
+    font-size: 20px;
+    color: #aaaaaa;
+}
+
+.a-logout:hover {
+    font-size: 20px;
+    color: #ff0000;
+}
+
+.div-message {
+    background-color: #eeeeee;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 500px;
+    max-width: 1000px;
+}
+
+.table-message {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.td-username {
+    color: #0000ff;
+    font-size: 16px;
+    text-align: left;
+}
+
+.td-timestamp {
+    color: #aaaaaa;
+    font-size: 16px;
+    text-align: right;
+}
+
+.p-text {
+    font-size: 18px;
+}

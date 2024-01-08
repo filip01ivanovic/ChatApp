@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+}
+
+.form {
+    text-align: center;
+}
+
+.title-start {
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.textbox-start {
+    font-size: 18px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #efefef;
+    color: #022b3a;
+}
+
+.button-start {
+    border-width: 0px;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #0000ff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.p-start {
+    font-size: 18px;
+    color: #022b3a;
+}
+
+.a-start {
+    font-size: 18px;
+    color: #0000ff;
+}
+
+.a-start:hover {
+    font-size: 18px;
+    color: #aaaaaa;
+}

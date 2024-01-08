@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="form">
+        <p class="title-start">Login</p>
+        <input class="textbox-start" placeholder="Username" type="text" [(ngModel)]="username">
+        <br>
+        <br>
+        <input class="textbox-start" placeholder="Password" type="text" [(ngModel)]="password">
+        <br>
+        <br>
+        <button class="button-start" (click)="login()">Login</button>
+        <p class="p-start">Don't have an account? <a class="a-start" (click)="goToRegister()">Register</a></p>
+    </div>
+</div>
